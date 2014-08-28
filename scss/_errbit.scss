@@ -2,9 +2,14 @@ html {
   height: 100%;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
 header {
   background: linear-gradient(to right, #2a678d, #389491, #377694, #379391);
-  height: 450px;
+  height: 708px;
   width: 100%;
   padding-top: 48px;
 }
@@ -14,3 +19,53 @@ h1.slogan {
   color: #fff;
   font-size: 3.5em;
 }
+
+div.laptop {
+  float: left;
+  position: relative;
+}
+
+div.main-content {
+  margin-top: 65px;
+  height: 500px;
+}
+
+div.number-circle {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  background: #fff;
+  border: 1px solid #666;
+  color: #666;
+  text-align: center;
+  font: 12px Arial, sans-serif;
+}
+
+div.divider {
+  margin: 2.5em 0;
+}
+
+div.errbit-ad {
+  padding: 25px 0;
+}
+
+div.step h5 {
+  margin: 10px 0;
+}
+
+div.step :first-child {
+  margin-top: 3em;
+}
+
+div.feature {
+  margin: 2em 0;
+}
+
+footer {
+  padding: 25px 0;
+  p img {
+    padding-left: .5em;
+  }
+}
+

@@ -1,0 +1,36 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: .9em;
+}
+
+div.step p {
+  font-weight: 300;
+}
+
+footer {
+  p { 
+    color: #c9c9c9;
+    &.small {
+      font-size: 11px;
+    }
+  }
+}
