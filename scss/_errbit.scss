@@ -28,6 +28,10 @@ div.laptop {
 div.main-content {
   margin-top: 65px;
   height: 500px;
+  .fa {
+    line-height: inherit;
+    color: #000;
+  }
 }
 
 div.number-circle {
@@ -60,6 +64,37 @@ div.step :first-child {
 
 div.feature {
   margin: 2em 0;
+}
+
+p {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+}
+
+.circle-icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto 25px auto;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  -webkit-box-shadow: 0 0 1px #000 inset;
+}
+
+.circle-icon:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 footer {
